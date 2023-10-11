@@ -40,7 +40,6 @@ class ProductsResource extends Resource
             ->columns([
                 Tables\Columns\TextColumn::make('name'),
                 Tables\Columns\TextColumn::make('price'),
-                Tables\Columns\TextColumn::make('description'),
                 Tables\Columns\TextColumn::make('ref'),
                 Tables\Columns\ImageColumn::make('image'),
                 
