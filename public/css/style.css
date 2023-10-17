@@ -9582,3 +9582,6 @@ a.text-dark:hover, a.text-dark:focus {
     transform: translateY(-15px);
   }
 }
+.try{
+background: linear-gradient(#252525 60%,white);
+}
