@@ -9663,3 +9663,19 @@ background: linear-gradient(#252525 60%,white);
   height: 100%;
   overflow: hidden;
 }
+
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-image: url('/img/back.jpg');
+  height: 500px; /* Adjust the height as needed */
+}
+
+.sub{
+  color: white;
+  background-color: #252525 ;
+  border-radius: 10px;
+}

@@ -138,7 +138,7 @@
                         <img class="img-fluid w-100" src="img/product-1.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Creatin MONOHYDRATE MyProtein</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -155,7 +155,7 @@
                         <img class="img-fluid w-100" src="img/product-2.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Creatine Monohydrate IMPACT</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -172,7 +172,7 @@
                         <img class="img-fluid w-100" src="img/product-3.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">WHEY ON</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -189,7 +189,7 @@
                         <img class="img-fluid w-100" src="img/product-4.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">WHEY Protein MyProtein</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -206,7 +206,7 @@
                         <img class="img-fluid w-100" src="img/product-5.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Creatine Capsules ON</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -223,7 +223,7 @@
                         <img class="img-fluid w-100" src="img/product-6.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">ASHWAGANDHA</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -240,7 +240,7 @@
                         <img class="img-fluid w-100" src="img/product-7.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Creatine Powder ON</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -257,7 +257,7 @@
                         <img class="img-fluid w-100" src="img/product-8.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="text-truncate mb-3">Colorful Stylish Shirt</h6>
+                        <h6 class="text-truncate mb-3">Magnesium Bisglycinate High Purity 60 Capsules</h6>
                         <div class="d-flex justify-content-center">
                             <h6>$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
@@ -274,12 +274,13 @@
 
 
     <!-- Subscribe Start -->
-    <div class="container-fluid bg-secondary my-5">
+    <div class="container-fluid bg-secondary my-5 parallax">
+    <div class="container-fluid  my-5">
         <div class="row justify-content-md-center py-5 px-xl-5">
             <div class="col-md-6 col-12 py-5">
                 <div class="text-center mb-2 pb-2">
-                    <h2 class="section-title px-5 mb-3"><span class="bg-secondary px-2">Stay Updated</span></h2>
-                    <p>Amet lorem at rebum amet dolores. Elitr lorem dolor sed amet diam labore at justo ipsum eirmod duo labore labore.</p>
+                    <h2 class="px-5 mb-3"><span class="sub px-2">Stay Updated</span></h2>
+                    <p class="sub">Subscribe to be informed of our best deals and latest products!</p>
                 </div>
                 <form action="">
                     <div class="input-group">
@@ -292,6 +293,11 @@
             </div>
         </div>
     </div>
+    </div>
+  </div>
+</div>
+  
+
     <!-- Subscribe End -->
 
 
