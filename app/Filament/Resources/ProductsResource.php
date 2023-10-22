@@ -13,6 +13,8 @@ use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
 use Filament\Forms\Components\FileUpload;
+use Filament\Forms\Components\Radio;
+
 class ProductsResource extends Resource
 {
     protected static ?string $model = Products::class;
@@ -31,6 +33,13 @@ class ProductsResource extends Resource
                 ->numeric()
                 ->suffix('DT'),
                 Forms\Components\TextInput::make('description')->required(),
+                Forms\Components\Radio::make('Category')
+                    ->options([
+                    'Protein' => 'Protein',
+                    'Creatine' => 'Creatine',
+                    'Vitamins' => 'Vitamins',
+                    'Other' => 'Other',
+                    ])
             ]);
     }
 

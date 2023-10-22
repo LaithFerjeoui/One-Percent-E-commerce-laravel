@@ -1,7 +1,7 @@
 @extends('Frontend.master')
 @section("content")
     <!-- Featured Start -->
-    <div class="container-fluid pt-5">
+    <div class="container-fluid pt-5 mc">
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="d-flex align-items-center border mb-4" style="padding: 30px;">
@@ -36,15 +36,15 @@
     <div class="try">
     <div class="container-fluid pt-5">
         <div class="row px-xl-5 pb-3">
-            <div class="col-lg-4 col-md-6 pb-1">
+            <div class="col-lg-3 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
-                    <div class="card shadow-lg">
+                    <div class="card shadow-lg rounded">
                         
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/cat-1.jpg" alt="" >
                     </a>
-                    <div class="card-title">
+                    <div class="card-title ml-2">
                     <h5 class="font-weight-semi-bold m-0">Protein</h5>
                     <p class="card-text">Pure Whey Protein: Premium quality, fast-absorbing protein for optimal muscle recovery.</p>
                     <a href="#" class="btn btn-primary">View Products</a>
@@ -54,16 +54,16 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
+            <div class="col-lg-3 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">15 Products</p>
-                    <div class="card">
+                    <div class="card shadow-lg rounded">
 
                     
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/cat-2.jpg" alt="">
                     </a>
-                    <div class="card-title">
+                    <div class="card-title ml-2">
                     <h5 class="font-weight-semi-bold m-0">Creatine</h5>
                     <p class="card-text">Creatine Monohydrate: Fuel your fitness gains with pure, micronized creatine for explosive strength and improved athletic performance.</p>
                     <a href="#" class="btn btn-primary">View Products</a>
@@ -72,16 +72,34 @@
                 </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 pb-1">
+            <div class="col-lg-3 col-md-6 pb-1">
                 <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
                     <p class="text-right">28 Products</p>
-                    <div class="card">
+                    <div class="card shadow-lg rounded">
+
+                    
+                    <a href="" class="cat-img position-relative overflow-hidden mb-3">
+                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                    </a>
+                    <div class="card-title ml-2">
+                    <h5 class="font-weight-semi-bold m-0">Vitamins</h5>
+                    <p class="card-text">Explore our vitamin supplements to maximize your workout results and maintain optimal health.</p>
+                    <a href="#" class="btn btn-primary">View Products</a>
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 pb-1">
+                <div class="cat-item d-flex flex-column mb-4" style="padding: 30px;">
+                    <p class="text-right">28 Products</p>
+                    <div class="card shadow-lg rounded">
 
                     
                     <a href="" class="cat-img position-relative overflow-hidden mb-3">
                         <img class="img-fluid" src="img/cat-3.jpg" alt="">
                     </a>
-                    <div class="card-title">
+                    <div class="card-title ml-2">
                     <h5 class="font-weight-semi-bold m-0">Other Suppliments</h5>
                     <p class="card-text">Supplement Essentials: Discover a diverse range of products, from mass gainers to vitamins, for comprehensive nutrition and fitness support.</p>
                     <a href="#" class="btn btn-primary">View Products</a>
@@ -92,7 +110,7 @@
             </div>
     </div>
     </div>
-    </div>
+    
 
         <!-- Categories End -->
 
@@ -101,27 +119,28 @@
     <div class="container-fluid offer pt-5">
         <div class="row px-xl-5">
             <div class="col-md-6 pb-4">
-                <div class="position-relative bg-secondary text-center text-md-right text-white mb-2 py-5 px-5">
+                <div class="position-relative  text-center text-md-right text-white mb-2 py-5 px-5">
                     <img src="img/offer-1.png" alt="">
                     
                     <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">20% all IMPACT Creatine products</h5>
+                        <h5 class="text-uppercase text-primary mb-3 mc">20% all IMPACT Creatine products</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Impact Collection</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                        <a href="" class="btn btn-primary py-md-2 px-md-3 rounded">Shop Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 pb-4">
-                <div class="position-relative bg-secondary text-center text-md-left text-white mb-2 py-5 px-5">
+                <div class="position-relative  text-center text-md-left text-white mb-2 py-5 px-5">
                     <img src="img/offer-2.png" alt="">
                     <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-primary mb-3">Free Delivery strating of 300DT</h5>
+                        <h5 class="text-uppercase text-primary mb-3 mc">Free Delivery starting of 300DT!!</h5>
                         <h1 class="mb-4 font-weight-semi-bold">Become A BEAST</h1>
-                        <a href="" class="btn btn-outline-primary py-md-2 px-md-3">Shop Now</a>
+                        <a href="" class="btn btn-primary py-md-2 px-md-3 rounded">Shop Now</a>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <!-- Offer End -->
 
@@ -129,7 +148,7 @@
     <!-- Products Start -->
     <div class="container-fluid pt-5">
         <div class="text-center mb-4">
-            <h2 class="section-title px-5"><span class="px-2">Trandy Products</span></h2>
+            <h2 class="section-title px-5"><span class="px-2">Trendy Products</span></h2>
         </div>
         <div class="row px-xl-5 pb-3">
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">

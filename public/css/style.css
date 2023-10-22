@@ -6174,7 +6174,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: grey !important;
 }
 
 .bg-transparent {
@@ -6337,6 +6337,7 @@ button.bg-dark:focus {
 
 .d-flex {
   display: flex !important;
+  justify-content: center;
 }
 
 .d-inline-flex {
@@ -9678,4 +9679,9 @@ background: linear-gradient(#252525 60%,white);
   color: white;
   background-color: #252525 ;
   border-radius: 10px;
+}
+.mc{
+  font-family: 'VT323';
+  font-size: x-large;
+  
 }
